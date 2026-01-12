@@ -1,0 +1,22 @@
+{
+  "name": "dosespot-integration-demo",
+  "version": "1.0.0",
+  "description": "DoseSpot Integration Demo App",
+  "author": "Sebastian Ammon",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "format": "npx prettier --write ."
+  },
+  "dependencies": {
+    "@fastify/formbody": "^8.0.2",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.6.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "^3.7.4"
+  }
+}
